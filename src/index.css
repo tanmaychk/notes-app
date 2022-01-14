@@ -21,6 +21,7 @@ code {
   margin-bottom:10px;
   border-radius: 10px;
   min-height: 170px ;  
+  white-space: pre-wrap; /*dosent ignore white space in user input*/
 }
 
 .note-footer{
@@ -42,4 +43,30 @@ code {
   padding-left: 10px;
   padding-right: 10px;
   padding-top:10px;
+}
+
+.note.new{
+  background-color:rgb(11, 204, 204);
+}
+
+.save{
+  background:#fbff1c;
+  color:rgb(0, 0, 0);
+  border-radius:15px;
+  font-family:Helvetica;
+}
+.save:hover{
+  background:black;
+  color:white;
+  cursor:pointer;
+}
+
+textarea{
+  border:none;
+  resize: none;
+  background-color:rgb(11, 204, 204);
+}
+
+textarea:focus{
+  outline: none;
 }
