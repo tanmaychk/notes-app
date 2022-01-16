@@ -49,17 +49,18 @@ code {
   background-color:rgb(11, 204, 204);
 }
 
-.save{
-  background:#fbff1c;
-  color:rgb(0, 0, 0);
-  border-radius:15px;
-  font-family:Helvetica;
+.save {
+	background-color: #e1e1e1;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
 }
-.save:hover{
-  background:black;
-  color:white;
-  cursor:pointer;
+
+.save:hover {
+	background-color: #ededed;
+	cursor: pointer;
 }
+
 
 textarea{
   border:none;
@@ -69,4 +70,8 @@ textarea{
 
 textarea:focus{
   outline: none;
+}
+
+.delete-icon{
+  cursor:pointer;
 }
