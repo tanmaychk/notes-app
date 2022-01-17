@@ -14,14 +14,14 @@ code {
 
 .note{
   background-color:rgba(248, 252, 6, 0.781);
-  padding:1rem;
+  padding:10px;
   display:flex;
   flex-direction:column;
   justify-content: space-between;
   margin-bottom:10px;
   border-radius: 10px;
   min-height: 170px ;  
-  white-space: pre-wrap; /*dosent ignore white space in user input*/
+  white-space: pre-wrap; /*dosent ignore white space (space and tab) in user input*/
 }
 
 .note-footer{
@@ -43,6 +43,7 @@ code {
   padding-left: 10px;
   padding-right: 10px;
   padding-top:10px;
+  min-height:100vh;
 }
 
 .note.new{
@@ -93,4 +94,32 @@ textarea:focus{
 
 .search input:focus {
 	outline: none;
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.dark-mode{
+  background-color: #121212;
+}
+
+.dark-mode h1{
+  color:white;
+}
+
+.dark{
+	background-color: #e1e1e1;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+
+.dark:hover{
+  background-color:rgb(248, 245, 241);
+	border-radius: 5px;
 }
